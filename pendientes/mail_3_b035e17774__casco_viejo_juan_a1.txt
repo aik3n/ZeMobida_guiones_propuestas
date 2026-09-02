@@ -1,0 +1,7 @@
+# INICIO
+soy juan de menzo.
+
+= Salir > FINAL
+
+# FINAL
+Adiós.

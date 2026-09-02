@@ -1,7 +1,11 @@
 # INICIO
 soy juan de menzo.
 
+=y que haces? >haces
 = Salir > FINAL
+
+#haces
+pues aqui estoy todo el dia.
 
 # FINAL
 Adiós.

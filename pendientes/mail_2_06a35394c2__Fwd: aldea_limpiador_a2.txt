@@ -1,0 +1,43 @@
+---------- Forwarded message ---------
+De: Sam Mon <sam.cdi110@gmail.com>
+Date: mar, 1 sept 2026 a las 18:22
+Subject: aldea_limpiador_a2.txt
+To: zemobida <zemobida@gmail.com>
+
+
+Archivo: aldea_limpiador_a2.txt
+
+# INICIO 'linea de comentario
+Hola, aventurero,
+Soy el limpiador.
+
+?llave > PUERTA ' condicion inventario tiene "llave", salta automaticamente
+a #PUERTA
+?moneda ?guante > TIENDA ' condicion inventario tiene "moneda" AND
+"guante", salta automaticamente a #TIENDA
+
+= ¿Quién eres? > QUIEN
+= Comprar poción > TIENDA [+pocion, xp+5] 'otro de comentario de guion
+
+# QUIEN
+Soy el guardián de esta puerta.
+
+= Dame la llave > INICIO [+llave, xp-10]
+
+# TIENDA
+Aquí tienes tu poción.
+
+= Gracias > INICIO [+moneda]
+
+# PUERTA
+Veo que tienes la llave.
+
+= Abrir la puerta > FINAL [-llave, +tesoro, xp+10]
+
+# FINAL
+¡Has conseguido el tesoro!
+
+= Terminar > ZAPATO
+
+# ZAPATO
+Fin de la aventura.

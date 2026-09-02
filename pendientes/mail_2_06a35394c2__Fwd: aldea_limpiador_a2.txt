@@ -1,11 +1,4 @@
----------- Forwarded message ---------
-De: Sam Mon <sam.cdi110@gmail.com>
-Date: mar, 1 sept 2026 a las 18:22
-Subject: aldea_limpiador_a2.txt
-To: zemobida <zemobida@gmail.com>
-
-
-Archivo: aldea_limpiador_a2.txt
+'editado
 
 # INICIO 'linea de comentario
 Hola, aventurero,

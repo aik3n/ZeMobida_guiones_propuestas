@@ -1,0 +1,52 @@
+'prop
+# INICIO			'linea de comentario
+Hola, aventurero, soy juan.
+quieres comprar algo
+
+?bolsa ?gorro ?guante > TODO ' condicion inventario tiene "llave", salta automaticamente a #PUERTA
+
+
+= Comprar bolsa > BOLSA [+bolsa]
+= Comprar guante > GUANTE[+GUANTE]   'otro de comentario de guion
+= Comprar gorro > GORRO[+Gorro]   'otro de comentario de guion
+= seguir > s1
+#s1
+elige
+= adios > agur
+= sigo > s2
+#s2
+vuelve a elegir
+=sigo>s3 'commmmentarioss
+=me voy>agur
+=talue>agur
+
+#s3
+has elegido bien 
+
+
+# BOLSA
+Aqui tienes tu bolsa..
+
+= agur  > AGUR
+= comprar mas  > INICIO
+
+# GUANTE
+Aqui tienes tu GUANTE..
+
+= agur  > AGUR
+= comprar mas  > INICIO
+
+# GORRO
+Aqui tienes tu GORRO..
+
+= agur > AGUR
+= comprar mas > INICIO
+
+
+# TODO
+¡Ya tienes todo!
+
+= Salir > AGUR
+
+# AGUR
+Agur.

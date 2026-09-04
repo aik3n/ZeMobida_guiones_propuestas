@@ -1,0 +1,32 @@
+''propcomentario
+# INICIO			'linea de comentario
+Hola, aventurero, soy ibon.
+quieres comprar algo
+
+?avion ?tren ?ala > TODO ' condiciones inventario, salta automaticamente a #TODO
+
+= Comprar avion > AVION [+AvioN]
+= Comprar tren > TREN[+TrEn]   'otro de comentario de guion
+= comprar cosas > agur [+cosa1, +cosa2, +cosa3,+cosa4] ' comprar varias cosas
+= vender cosas > agur [-cosa1, -cosa2, -cosa3,-cosa4] ' comprar varias cosas
+
+
+# AVION
+Aqui tienes tu bolsa..
+
+= agur > AGUR
+= comprar mas > INICIO
+
+# TREN
+Aqui tienes tu GUANTE..
+
+= agur > AGUR
+= comprar mas > INICIO
+
+# TODO
+¡Ya tienes todo!
+
+= Salir > AGUR
+
+# AGUR
+Agur.

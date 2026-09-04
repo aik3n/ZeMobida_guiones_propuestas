@@ -1,6 +1,6 @@
 'prop
 # INICIO			'linea de comentario
-Hola, aventurero, soy juan.
+Soy juan el ejecutivo.
 quieres comprar algo
 
 ?bolsa ?gorro ?guante > TODO ' condicion inventario tiene "llave", salta automaticamente a #PUERTA

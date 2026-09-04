@@ -1,4 +1,4 @@
-'propArchivo: aldea_medico_a2.txt
+'cambio
 
 # INICIO
 Soy una medica muy maja.

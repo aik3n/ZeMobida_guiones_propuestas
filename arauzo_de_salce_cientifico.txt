@@ -1,0 +1,7 @@
+# INICIO
+Escribe aquí tu diálogo.
+
+= Salir > FINAL
+
+# FINAL
+Adiós.

@@ -1,0 +1,9 @@
+'cambio
+
+# INICIO
+Soy una medica muy maja.
+
+= Salir > FINAL
+
+# FINAL
+Adiós.

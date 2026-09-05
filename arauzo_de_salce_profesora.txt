@@ -1,8 +1,6 @@
-@sam
-
 # INICIO
 Escribe aquí tu diálogo.
-que me dices?
+que me dices he?
 
 = Salir > FINAL
 = dame argo.. > algo

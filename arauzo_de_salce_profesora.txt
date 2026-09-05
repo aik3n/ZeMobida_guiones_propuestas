@@ -1,6 +1,6 @@
 # INICIO
 Escribe aquí tu diálogo.
-que me dices he?
+que me dices o que?
 
 = Salir > FINAL
 = dame argo.. > algo
